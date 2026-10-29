@@ -1,0 +1,6 @@
+{
+  "name": "Maka UG - Real Estate & Property Management Uganda",
+  "description": "Mobile real estate marketplace and property management app for Uganda with offline support, UGX billing, MoMo receipts, and developer companion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
