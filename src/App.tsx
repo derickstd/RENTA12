@@ -511,7 +511,7 @@ export default function App() {
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="font-bold text-lg tracking-tight text-white">Maka UG</span>
+                <span className="font-bold text-lg tracking-tight text-white">rize</span>
                 <span className="text-xs px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/30 font-medium">
                   Uganda Mobile &amp; Cloud
                 </span>
@@ -547,7 +547,7 @@ export default function App() {
               }`}
             >
               <Terminal className="w-3.5 h-3.5" />
-              <span>Flutter Step-by-Step</span>
+              <span>React Native (Expo) Guide</span>
             </button>
             <button
               onClick={() => setActiveTab('database')}
@@ -804,7 +804,7 @@ export default function App() {
                             </div>
                             <div className="flex items-center gap-1.5">
                               <a
-                                href={`https://wa.me/${listing.contactWhatsApp}?text=${encodeURIComponent(`Hello, I saw your listing for "${listing.title}" on Maka UG. Is it still available?`)}`}
+                                href={`https://wa.me/${listing.contactWhatsApp}?text=${encodeURIComponent(`Hello, I saw your listing for "${listing.title}" on rize. Is it still available?`)}`}
                                 target="_blank"
                                 rel="noreferrer"
                                 onClick={(e) => e.stopPropagation()}
@@ -984,7 +984,7 @@ export default function App() {
               {/* Action Buttons */}
               <div className="pt-2 border-t border-slate-800 flex gap-2">
                 <a
-                  href={`https://wa.me/${selectedListing.contactWhatsApp}?text=${encodeURIComponent(`Hello, I saw your listing for "${selectedListing.title}" on Maka UG. I would like to schedule a site inspection.`)}`}
+                  href={`https://wa.me/${selectedListing.contactWhatsApp}?text=${encodeURIComponent(`Hello, I saw your listing for "${selectedListing.title}" on rize. I would like to schedule a site inspection.`)}`}
                   target="_blank"
                   rel="noreferrer"
                   className="flex-1 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-2.5 rounded-xl text-xs flex items-center justify-center gap-1.5 transition-colors"
@@ -1871,7 +1871,7 @@ export default function App() {
               {/* Official Receipt Header */}
               <div className="text-center border-b pb-3">
                 <div className="inline-block px-3 py-1 bg-amber-500 text-slate-950 font-black rounded-lg text-sm mb-1 tracking-wider uppercase">
-                  Maka UG Official Rent Receipt
+                  rize Official Rent Receipt
                 </div>
                 <div className="text-xs text-slate-500 font-mono">Receipt No: <strong>{viewingReceipt.receiptNumber}</strong></div>
                 <div className="text-[11px] text-slate-400">Republic of Uganda &bull; Electronic Property Voucher</div>
@@ -1920,7 +1920,7 @@ export default function App() {
               {/* Action */}
               <div className="pt-2 flex gap-2">
                 <a
-                  href={`https://wa.me/?text=${encodeURIComponent(`*MAKA UG RENT RECEIPT*\nReceipt No: ${viewingReceipt.receiptNumber}\nTenant: ${viewingReceipt.tenantName}\nUnit: ${viewingReceipt.unitCode}\nAmount Paid: ${formatUGX(viewingReceipt.amountUGX)}\nMethod: ${viewingReceipt.method} (${viewingReceipt.transactionId})\nPeriod: ${viewingReceipt.forMonth}\nStatus: Confirmed. Thank you for paying on time!`)}`}
+                  href={`https://wa.me/?text=${encodeURIComponent(`*RIZE RENT RECEIPT*\nReceipt No: ${viewingReceipt.receiptNumber}\nTenant: ${viewingReceipt.tenantName}\nUnit: ${viewingReceipt.unitCode}\nAmount Paid: ${formatUGX(viewingReceipt.amountUGX)}\nMethod: ${viewingReceipt.method} (${viewingReceipt.transactionId})\nPeriod: ${viewingReceipt.forMonth}\nStatus: Confirmed. Thank you for paying on time!`)}`}
                   target="_blank"
                   rel="noreferrer"
                   className="flex-1 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-2.5 rounded-xl text-xs flex items-center justify-center gap-1.5 shadow"
@@ -2050,7 +2050,7 @@ export default function App() {
 
               <div className="pt-2 flex flex-col sm:flex-row gap-2">
                 <a
-                  href={`https://wa.me/?text=${encodeURIComponent("Test the Maka UG Real Estate & Property Management app here: https://ais-pre-vrg3kekmtkqbvxujubvpgg-189978757144.europe-west2.run.app")}`}
+                  href={`https://wa.me/?text=${encodeURIComponent("Test the rize Real Estate & Property Management app here: https://ais-pre-vrg3kekmtkqbvxujubvpgg-189978757144.europe-west2.run.app")}`}
                   target="_blank"
                   rel="noreferrer"
                   className="flex-1 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-2.5 rounded-xl text-xs flex items-center justify-center gap-1.5 shadow transition-colors"
@@ -2081,30 +2081,30 @@ export default function App() {
         )}
 
         {/* ============================================================== */}
-        {/* 3. FLUTTER STEP-BY-STEP COMPANION (For You and User)           */}
+        {/* 3. REACT NATIVE (EXPO) STEP-BY-STEP COMPANION                  */}
         {/* ============================================================== */}
         {activeTab === 'companion' && (
           <div className="space-y-6">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-3 rounded-2xl bg-blue-500/20 text-blue-400">
-                  <Terminal className="w-6 h-6" />
+                <div className="p-3 rounded-2xl bg-cyan-500/20 text-cyan-400">
+                  <Smartphone className="w-6 h-6" />
                 </div>
                 <div>
-                  <h2 className="text-xl font-bold text-white">Flutter Mobile Developer Curriculum &amp; Plan</h2>
-                  <p className="text-xs text-slate-400">Tailored for Windows &amp; Android Phone development on free tiers.</p>
+                  <h2 className="text-xl font-bold text-white">React Native (Expo) Mobile Developer Curriculum</h2>
+                  <p className="text-xs text-slate-400">Zero-budget, zero-Flutter setup. Test on your real Android phone in 60 seconds with Expo Go.</p>
                 </div>
               </div>
 
               {/* Progress Milestones */}
               <div className="grid grid-cols-1 md:grid-cols-6 gap-2 pt-2">
                 {[
-                  { step: 'Step 0', title: 'Concepts & Architecture', status: 'Completed ✓' },
-                  { step: 'Step 1', title: 'Install Tools (Windows & Phone)', status: 'ACTIVE NOW' },
+                  { step: 'Step 0', title: 'React Native Concepts', status: 'Completed ✓' },
+                  { step: 'Step 1', title: 'Node.js & Expo Go App', status: 'ACTIVE NOW' },
                   { step: 'Step 2', title: 'Supabase & SQL Schema', status: 'Next Step' },
-                  { step: 'Step 3', title: 'Flutter Hello & Folders', status: 'Upcoming' },
+                  { step: 'Step 3', title: 'Create App & Scan QR', status: 'Upcoming' },
                   { step: 'Step 4', title: 'Build Modules (Auth -> Rent)', status: 'Upcoming' },
-                  { step: 'Step 5', title: 'WhatsApp APK Build', status: 'Upcoming' },
+                  { step: 'Step 5', title: 'EAS Free Cloud APK Build', status: 'Upcoming' },
                 ].map((s, idx) => (
                   <div key={idx} className={`p-3 rounded-xl border ${idx === 1 ? 'bg-amber-500/10 border-amber-500/40 text-amber-300 ring-2 ring-amber-500/30' : 'bg-slate-950 border-slate-800 text-slate-400'}`}>
                     <div className="text-[10px] uppercase font-bold tracking-wider">{s.step}</div>
@@ -2115,67 +2115,106 @@ export default function App() {
               </div>
             </div>
 
-            {/* Step 1 Windows Guide Card */}
+            {/* Why React Native + Expo is easier on Windows */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
               <h3 className="font-bold text-white text-base flex items-center gap-2">
-                <Laptop className="w-4 h-4 text-blue-400" />
-                Step 1 Guide: Setup on Windows + Android Phone
+                <Sparkles className="w-4 h-4 text-cyan-400" />
+                Why React Native (Expo) is 10x Easier for You:
               </h3>
-              <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-3 text-xs text-slate-300 leading-relaxed font-sans">
-                <p><strong>1. Install Git for Windows:</strong> Download and run the 64-bit installer from <code>git-scm.com/download/win</code> (use default settings).</p>
-                <p><strong>2. Download Flutter SDK:</strong> Download the official Flutter zip file from <code>docs.flutter.dev/get-started/install/windows</code>, extract to <code>C:\src\flutter</code>, and add <code>C:\src\flutter\bin</code> to your System PATH.</p>
-                <p><strong>3. Connect your Android Phone:</strong> Go to Settings &gt; About Phone &gt; tap <em>Build Number</em> 7 times to enable Developer Options. Then in Developer Options, turn ON <strong>USB Debugging</strong>.</p>
-                <p><strong>4. Verify with Flutter Doctor:</strong> Open PowerShell or Command Prompt and run <code>flutter doctor</code>.</p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+                <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-1">
+                  <div className="font-bold text-white flex items-center gap-1.5">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                    No Heavy Flutter SDK
+                  </div>
+                  <p className="text-slate-400 text-[11px] leading-relaxed">
+                    You don’t need to download gigabytes of Android Studio, configure PATH variables, or debug Gradle build scripts on Windows.
+                  </p>
+                </div>
+                <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-1">
+                  <div className="font-bold text-white flex items-center gap-1.5">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                    Instant Expo Go on Phone
+                  </div>
+                  <p className="text-slate-400 text-[11px] leading-relaxed">
+                    Install the free &ldquo;Expo Go&rdquo; app from Google Play Store on your Android phone, scan the QR code, and your app runs live on your phone instantly.
+                  </p>
+                </div>
+                <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-1">
+                  <div className="font-bold text-white flex items-center gap-1.5">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                    Free Cloud APK Builds
+                  </div>
+                  <p className="text-slate-400 text-[11px] leading-relaxed">
+                    Expo Application Services (EAS) builds your standalone Android APK in the cloud for free—ready to share on WhatsApp!
+                  </p>
+                </div>
               </div>
             </div>
 
-            {/* pubspec.yaml dependencies preview */}
+            {/* Step 1 React Native Setup Card */}
+            <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
+              <h3 className="font-bold text-white text-base flex items-center gap-2">
+                <Laptop className="w-4 h-4 text-blue-400" />
+                Step 1 Guide: Setup with Node.js &amp; Expo Go
+              </h3>
+              <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-3 text-xs text-slate-300 leading-relaxed font-sans">
+                <p><strong>1. Install Node.js LTS on Windows:</strong> Go to <code>https://nodejs.org</code> and download the <strong>LTS (Recommended for Most Users)</strong> Windows installer. Double click and click Next until installed.</p>
+                <p><strong>2. Install Expo Go on your Android Phone:</strong> Open the <strong>Google Play Store</strong> on your phone, search for <strong>Expo Go</strong>, and tap Install.</p>
+                <p><strong>3. Verify in Command Prompt:</strong> Open Windows Command Prompt (press Windows key, type <code>cmd</code>) and run:
+                  <code className="block mt-1 p-2 bg-slate-900 text-emerald-400 rounded-lg font-mono">node -v && npm -v</code>
+                </p>
+              </div>
+            </div>
+
+            {/* package.json dependencies preview */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
               <div className="flex justify-between items-center">
                 <div>
-                  <h3 className="font-bold text-white text-sm">Free Flutter Dependencies (pubspec.yaml)</h3>
-                  <p className="text-xs text-slate-400">All 100% open-source, no billing or credit card required.</p>
+                  <h3 className="font-bold text-white text-sm">Free React Native Dependencies (package.json)</h3>
+                  <p className="text-xs text-slate-400">All 100% open-source, no billing or credit cards needed.</p>
                 </div>
                 <button
                   onClick={() => {
-                    navigator.clipboard.writeText(`dependencies:
-  flutter:
-    sdk: flutter
-  supabase_flutter: ^2.8.0
-  flutter_map: ^7.0.2
-  latlong2: ^0.9.1
-  fl_chart: ^0.70.0
-  pdf: ^3.11.1
-  printing: ^5.13.2
-  intl: ^0.19.0
-  cached_network_image: ^3.4.1
-  url_launcher: ^6.3.1
-  shared_preferences: ^2.3.3
-  image_picker: ^1.1.2`);
-                    setCopiedReceipt('pubspec');
+                    navigator.clipboard.writeText(`{
+  "dependencies": {
+    "expo": "~52.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.0",
+    "@supabase/supabase-js": "^2.48.0",
+    "expo-print": "~14.0.2",
+    "expo-sharing": "~13.0.1",
+    "expo-image-picker": "~16.0.4",
+    "react-native-maps": "1.18.0",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-svg": "15.8.0",
+    "lucide-react-native": "^0.475.0",
+    "intl": "^1.2.5"
+  }
+}`);
+                    setCopiedReceipt('package');
                     setTimeout(() => setCopiedReceipt(null), 2000);
                   }}
                   className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-white flex items-center gap-1.5"
                 >
-                  {copiedReceipt === 'pubspec' ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
-                  <span>{copiedReceipt === 'pubspec' ? 'Copied!' : 'Copy pubspec'}</span>
+                  {copiedReceipt === 'package' ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
+                  <span>{copiedReceipt === 'package' ? 'Copied!' : 'Copy package.json'}</span>
                 </button>
               </div>
 
-              <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-xs text-emerald-400 overflow-x-auto">
-                <pre>{`dependencies:
-  flutter:
-    sdk: flutter
-  supabase_flutter: ^2.8.0      # Free PostgreSQL & Auth
-  flutter_map: ^7.0.2           # Free OpenStreetMap (No Google Maps API bill)
-  latlong2: ^0.9.1              # Uganda GPS Coordinates
-  fl_chart: ^0.70.0             # Rent & Expense Charts
-  pdf: ^3.11.1                  # Official Numbered PDF Receipts
-  printing: ^5.13.2             # Print & Share PDF
-  intl: ^0.19.0                 # UGX Number Formatting
-  cached_network_image: ^3.4.1  # Low-data image caching & thumbnails
-  url_launcher: ^6.3.1          # WhatsApp & Direct Call Buttons
-  shared_preferences: ^2.3.3    # Offline favorites on cheap phones`}</pre>
+              <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-xs text-cyan-300 overflow-x-auto">
+                <pre>{`"dependencies": {
+  "expo": "~52.0.0",                 // Free Expo framework
+  "@supabase/supabase-js": "^2.48.0",// Free PostgreSQL, Auth & Storage
+  "react-native-maps": "1.18.0",     // OpenStreetMap pins across Uganda
+  "react-native-chart-kit": "^6.12.0", // Rent collection & expense charts
+  "react-native-svg": "15.8.0",       // SVG engine for charts
+  "expo-print": "~14.0.2",           // PDF rent receipts generator
+  "expo-sharing": "~13.0.1",         // 1-tap share PDF receipt to WhatsApp
+  "expo-image-picker": "~16.0.4",     // Camera / gallery photo upload
+  "lucide-react-native": "^0.475.0", // Clean UI icons
+  "intl": "^1.2.5"                   // UGX currency formatting
+}`}</pre>
               </div>
             </div>
           </div>
@@ -2405,7 +2444,7 @@ CREATE POLICY "Owners see all payments on their units" ON rent_payments FOR ALL 
       {/* Footer */}
       <footer className="bg-slate-900 border-t border-slate-800 px-4 py-4 text-xs text-slate-500">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-          <div>Maka UG &bull; Real Estate &amp; Property Management Suite &bull; Tailored for Uganda</div>
+          <div>rize &bull; Real Estate &amp; Property Management Suite &bull; Tailored for Uganda</div>
           <div className="flex items-center gap-3">
             <span>UGX Currency</span>
             <span>&bull;</span>
